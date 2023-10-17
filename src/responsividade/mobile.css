@@ -1,0 +1,40 @@
+@media(max-width: 700px) {
+    .conteudo {
+        width: 90%;
+    }
+    .escrita {
+        width: 450px;
+    }
+
+    ul {
+        padding: 0;
+        justify-content: space-between;
+    }
+}
+
+@media(max-width: 500px) {
+
+    .conteudo {
+        width: 85vw;
+        height: 100%;
+        flex-direction: column-reverse;
+    }
+
+    .imagem {
+        width: 85vw;
+        height: 100%;
+    }
+    .escrita {
+        width: 50vw;
+        text-align: center;
+        padding-left: 0;
+    }
+    .texto {
+        width: 100%;
+        text-align: center;
+    }
+
+    ul {
+        flex-direction: column;
+    }
+}
